@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main() {
+    // Definindo as variáveis para armazenar os dados de cada carta
+    int populacao1, populacao2;
+    float area1, area2, pib1, pib2;
+    int pontos1, pontos2;
+
+    // Exibindo uma mensagem para o usuário
+    printf("Cadastro de Cartas - Super Trunfo: Países\n");
+
+    // Cadastrando a primeira carta (cidade A01)
+    printf("\nCadastro da Carta 1 (Cidade A01):\n");
+    printf("População: ");
+    scanf("%d", &populacao1);
+    printf("Área: ");
+    scanf("%f", &area1);
+    printf("PIB: ");
+    scanf("%f", &pib1);
+    printf("Número de pontos turísticos: ");
+    scanf("%d", &pontos1);
+
+    // Cadastrando a segunda carta (cidade A02)
+    printf("\nCadastro da Carta 2 (Cidade A02):\n");
+    printf("População: ");
+    scanf("%d", &populacao2);
+    printf("Área: ");
+    scanf("%f", &area2);
+    printf("PIB: ");
+    scanf("%f", &pib2);
+    printf("Número de pontos turísticos: ");
+    scanf("%d", &pontos2);
+
+    // Exibindo os dados cadastrados
+    printf("\nDados Cadastrados:\n");
+
+    // Exibindo a primeira carta (cidade A01)
+    printf("\nCarta 1 (Cidade A01):\n");
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f\n", area1);
+    printf("PIB: %.2f\n", pib1);
+    printf("Número de pontos turísticos: %d\n", pontos1);
+
+    // Exibindo a segunda carta (cidade A02)
+    printf("\nCarta 2 (Cidade A02):\n");
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f\n", area2);
+    printf("PIB: %.2f\n", pib2);
+    printf("Número de pontos turísticos: %d\n", pontos2);
+
+    return 0;
+}
